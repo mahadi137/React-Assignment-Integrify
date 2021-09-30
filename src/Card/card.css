@@ -1,0 +1,75 @@
+/* ShowCards */
+.Container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.Cards {
+  width: 270px;
+  text-align: center;
+  margin: 30px auto 0;
+  padding: 5px;
+  border-radius: 10px !important;
+  box-shadow: 0px 2px 2px 2px #eeeeee;
+}
+
+.Button {
+  padding: 2px 16px 8px 16px !important;
+  border-radius: 10px !important;
+  margin: 15px auto;
+  height: 40px;
+  width: 170px;
+}
+
+.ButtonLink {
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+/* Avatar */
+.Avatar {
+  margin: 25px auto;
+  background-color: #eeeeee;
+  height: 120px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 120px;
+}
+
+.Avatar h1 {
+  padding: 35px;
+}
+
+/* Entry */
+.Entry h3 {
+  font-size: 20px;
+  color: #2c2e43;
+  font-weight: 700;
+  margin: 0 5px;
+}
+
+.Entry p:first-of-type {
+  font-size: 12px;
+  color: #b2b1b9;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.Entry p:last-child {
+  color: #2d46b9;
+  text-decoration: underline;
+}
+
+/* ExploreCard */
+.ExploreCard {
+  font-weight: 500;
+  text-align: left;
+  width: 342px;
+  border: 2px solid grey;
+  padding: 35px;
+  border-radius: 10px;
+  margin: 100px auto 0;
+}
